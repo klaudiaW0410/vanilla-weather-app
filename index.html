@@ -12,7 +12,8 @@
 </head>
 <body>
 <div class="container">
-    <div class="weather">
+    <div class="weather-wrapper">
+        <div class="weather">
      <h1> New York </h1>
      <ul>
      <li> Friday 16:11</li>
@@ -20,7 +21,15 @@
      </ul>
         <div class="row">
           <div class="col-6">
-            <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="Clear"/> 12 °C | 7 °F
+            <div class="clearfix">
+            <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" 
+            alt="Clear"
+            class="float-left"
+            /> 
+            <div class="float-left">
+            12 °C | 7 °F
+            </div>
+          </div>
           </div>
           <div class="col-6">
             <ul>
@@ -28,9 +37,12 @@
             <li> Humidity: 90% </li>
             <li> Wind: 5m/s </li>
             </ul>
+
           </div>
         </div>
-     <small>
+     
+    </div>
+    <small>
      <a href= "https://github.com/klaudiaW0410/vanilla-weather-app" target="_blank">Open -source code.</a> by Klaudia Wróblewska
      </small>
     </div>
