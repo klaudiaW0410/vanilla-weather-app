@@ -19,7 +19,9 @@ li{
      color: rgb(135, 135, 135);
      font-size: 16px;
      font-weight: 100;
+     text-transform: capitalize;
      line-height:19px
+   
 }
 .weather-wrapper{
     max-width: 600px;
