@@ -42,7 +42,8 @@ let descriptionElement = document.querySelector("#description")
 
 
 let apiKey = "bd44c7c3b23184830acea00o17tff244";
-let apiUrl = "https://api.shecodes.io/weather/v1/current?query=New York&key=bd44c7c3b23184830acea00o17tff244&units=metric"
+let city = "Lund"
+let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
 
 
 axios.get(apiUrl).then(displayTemperature);
