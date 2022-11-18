@@ -44,11 +44,20 @@ let descriptionElement = document.querySelector("#description")
  
 }
 
+function search(event){
+  event.preventDefault();
+  let cityInputElement = document.querySelector("#city-input")
+  console.log(cityInputElement.vslue);
+}
+
 
 let apiKey = "bd44c7c3b23184830acea00o17tff244";
-let city = "New York"
+let city = "sadki"
 let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`
 
 
 axios.get(apiUrl).then(displayTemperature);
+
+let form = document.querySelector("#search-form");
+form.addEventListener("submit", search);
          
