@@ -24,16 +24,23 @@ li{
    
 }
 .weather-wrapper{
-    max-width: 600px;
+    display: block;
     margin: 30px auto;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    max-width: 600px;
+    margin-top: 100px;
+    padding: 20px 10px;
+    background: rgba(86, 156, 189, 0.2);
+    box-shadow: 3px 2px 15px 1px rgba(184, 184, 214, 0.8);
 }
 
-.weather {
+/* .weather {
     
     padding: 20px;
     border: 1px solid #dadde1;
     border-radius: 5px;
-}
+} */
 .overview{
     margin-bottom: 20px;
 }
@@ -63,4 +70,11 @@ li{
 .weather-temperature .active:hover {
     text-decoration: none;
 }
+.days{
+    
+    margin-top: 20px;
+        text-align: center;
+        color: #000;
+}
+
 
