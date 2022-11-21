@@ -19,9 +19,11 @@ li{
      color: rgb(135, 135, 135);
      font-size: 16px;
      font-weight: 100;
-     text-transform: capitalize;
      line-height:19px
    
+}
+li:first-letter {
+    text-transform: capitalize;
 }
 .weather-wrapper{
     display: block;
@@ -41,12 +43,7 @@ footer{
 
 }
 
-/* .weather {
-    
-    padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
-} */
+
 .overview{
     margin-bottom: 20px;
 }
